@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Correctly Load the Genty Font */
+@font-face {
+  font-family: 'Genty';
+  src: url('/fonts/GentyDemo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply Font */
+.font-genty {
+  font-family: 'Genty', sans-serif;
+}
