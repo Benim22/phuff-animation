@@ -47,7 +47,7 @@ const PhuffAnimation: React.FC = () => {
 
       {/* Animated Phuff Text (Slow Reveal) */}
       <motion.h1
-        className="relative z-10 text-white text-[30vw] md:text-[7vw] font-bold tracking-wide flex gap-2 font-genty"
+        className="relative z-10 text-white text-[20vw] md:text-[7vw] font-bold tracking-wide flex gap-2 font-genty"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
